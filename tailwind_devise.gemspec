@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.email       = "indigo@techtutorials.com"
   s.files       = ["lib/**/*"]
   s.homepage    =
-    "https://rubygems.org/gems/hola"
+    "https://rubygems.org/gems/tailwind_devise"
   s.license       = "MIT"
   s.add_development_dependency 'railties', '>= 6.0' # Required for generators
   s.add_development_dependency 'thor', '>= 0.20.0' # Required for generators
