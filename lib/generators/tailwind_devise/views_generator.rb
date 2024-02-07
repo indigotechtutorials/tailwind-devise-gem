@@ -7,7 +7,7 @@ module TailwindDevise
 
     def install
       devise_folder = File.dirname("#{Rails.root}/app/views/devise")
-      FileUtils.rmdir(devise_folder) if File.directory?(devise_folder)
+      FileUtils.rm_rf(devise_folder) if File.directory?(devise_folder)
       FileUtils.mkdir_p(devise_folder)
       directory 'devise', devise_folder
     end
