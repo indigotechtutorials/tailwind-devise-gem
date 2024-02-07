@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.description = "Pretty sign in & sign up pages with Tailwind CSS"
   s.authors     = ["Indigo"]
   s.email       = "indigo@techtutorials.com"
-  s.files       = ["lib/tailwind_devise.rb"]
+  s.files       = ["lib/**/*"]
   s.homepage    =
     "https://rubygems.org/gems/hola"
   s.license       = "MIT"
