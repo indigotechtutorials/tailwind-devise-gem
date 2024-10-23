@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "tailwind_devise"
-  s.version     = "0.0.2"
+  s.version     = "0.0.3"
   s.summary     = "Creates pretty sign in/signup views for devise"
   s.description = "Pretty sign in & sign up pages with Tailwind CSS"
   s.authors     = ["Indigo"]
